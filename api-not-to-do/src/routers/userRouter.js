@@ -16,7 +16,7 @@ router.post("/", async (req, res) => {
     result?.id
       ? res.json({
           status: "success",
-          message: "User registered successfully.",
+          message: "User registered successfully. You may login now.",
         })
       : res.json({
           status: "error",
